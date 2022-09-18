@@ -1,0 +1,112 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.requestContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 24px 0;
+  padding: 8px;
+  border: 1px solid black;
+
+}
+
+.request {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.request > input {
+  flex: 1;
+  padding: 4px 8px;
+}
+
+.cloneButton {
+  width: max-content;
+  padding: 4px 8px;
+}
+
+.pageTitle {
+  font-size: 24px;
+  margin: 0 0 24px;
+}
+
+.cloneButton {
+  width: max-content;
+  padding: 4px 8px;
+}
+
+.cloneResponseContainer {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  border: 1px solid grey;
+  padding: 4px;
+}
+
+.preloaderCaption {
+  margin-top: 36px;
+}
+
+.cloneFile {
+  display: flex;
+  padding: 4px 16px;
+  align-items: center;
+}
+
+.cloneFile:hover {
+  background: #A5D6A7;
+}
+
+.cloneFile > svg {
+  cursor: pointer;
+}
+
+.cloneFileName {
+  flex: 1;
+}
+
+.commandsContainer {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.addCommandContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+
+.addMetaInfContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.addFileNameInput {
+  flex: 1;
+  padding: 4px 8px;
+}
+
+.addInput {
+  flex: 1;
+  padding: 8px;
+}
+
